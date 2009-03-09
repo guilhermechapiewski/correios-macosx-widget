@@ -3,16 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>BuildVersion</key>
-	<string>1</string>
+	<string>2</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
+	<string>1.1</string>
 	<key>CFBundleVersion</key>
-	<string>1.0</string>
+	<string>1.1</string>
 	<key>ProjectName</key>
 	<string>Rastreamento de Encomendas dos Correios do Brasil</string>
 	<key>ReleaseStatus</key>
 	<string>Final</string>
 	<key>SourceVersion</key>
-	<string>1</string>
+	<string>2</string>
 </dict>
 </plist>
