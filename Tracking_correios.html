@@ -1,0 +1,41 @@
+<html>
+<head>
+	<style type="text/css">
+		@import "Tracking_correios.css";
+	</style>
+	<script type='text/javascript' src="/System/Library/WidgetResources/button/genericButton.js"></script>
+	<script type="text/javascript" src="AppleClasses/AppleScrollArea.js"></script>
+	<script type="text/javascript" src="AppleClasses/AppleScrollbar.js"></script>
+  	<script type="text/javascript" src="Tracking_correios.js"></script>
+	<title>Tracking Correios</title>
+</head>
+<body onLoad="setup();">
+<div id="front" onMouseOver="mousemove(event);" onMouseOut="mouseexit(event);">
+	Buscar encomenda: <input type="search" id="txtEncomenda" name="encomenda" onSearch="ajaxInit()" autosave="searchHistory" placeholder="identificador" width="50"/>
+	<div id="myScrollArea">
+		<div id="tracking"></div>
+	</div>
+	<div id="myScrollbar"></div>
+	<div class="flip" id="fliprollie"></div>
+	<div class="flip" id="flip" onclick='showPrefs(event);' onmouseover='enterflip(event);' onmouseout='exitflip(event)';></div>
+</div>
+
+<div id="back">
+	<div id="creditos">
+		<span id="creditos_titulo">Rastreamento de Encomendas dos Correios do Brasil v1.0</span><br /><br />
+		Criado por <strong>Guilherme Chapiewski</strong><br />
+		Contato: gc@vialink.com.br<br />
+		Web: http://gc.vialink.com.br<br /><br />
+		Design por <strong>Xico Pires</strong><br />
+		Web: http://www.tecnomundo.com.br
+	</div>
+	<div id="donePrefsButton"></div>
+		<script> 
+			var doneButton = document.getElementById('done'); 
+			createGenericButton (donePrefsButton, 'Voltar', hidePrefs); 
+		</script>
+	</div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,151 @@
+a {
+    color: #1961A5;
+	text-decoration: none;
+}
+
+div {
+	text-align: left;
+	font-family: "Trebuchet MS", Geneva, Arial, Helvetica, sans-serif;
+   	font-size: 11px;
+   	vertical-align: top;
+}
+
+div.bottom {
+	width: 250px;
+	text-align: center;
+}
+
+div.widgetButton {
+	width: 40px;
+	height: 15px;
+	border: 1px dotted #FFFFFF;
+	color: #FFFFFF;
+	font-weight: bold;
+	text-align: center;
+	margin-left: 100px;
+}
+
+hr {
+	color: #1961A5;
+	border: 1px dotted #1961A5;
+}
+
+table {
+	color: #000000;
+	padding: 0px;
+	text-align: left;
+	font-family: "Trebuchet MS", Geneva, Arial, Helvetica, sans-serif;
+   	font-size: 11px;
+   	vertical-align: top;
+	border: 0px;
+}
+
+td {
+	border: 1px solid #E8E8D1;
+	background-color: #FCFFAD
+}
+
+.flip {
+	position:absolute;
+	top: 15px;
+	left: 505px;
+	width:13px;
+	height:13px;
+}
+
+.cor1 {
+	color: #007FFF;
+}
+
+.cor2 {
+	color: #5F9F9F;
+}
+
+.cor3 {
+	color: #FF0000;
+}
+
+#back {
+	background-image: url(Default_reverse.png);
+	width: 506px;
+	height: 137px;
+	display: none;
+	text-align: center;
+}
+
+#creditos {
+	position:absolute;
+	top:15px;
+	left: 40px;
+	text-align: center;
+	font-size:12px;
+	padding: 5px;
+	color: #FFFFFF;
+	width: 410px;
+}
+
+#creditos_titulo {
+	font-size:14px;
+	font-weight:bold;
+}
+
+#donePrefsButton {
+	position: absolute;
+	top: 110px;
+	left: 430px;
+	width:60px;
+	height:23px;
+}
+
+#flip {
+	opacity:0.5;
+	background: url(file:///System/Library/WidgetResources/ibutton/black_i.png) no-repeat top left;
+	z-index:8000;
+}
+
+#fliprollie {
+	display:none;
+	opacity:0.25;
+	background: url(file:///System/Library/WidgetResources/ibutton/black_rollie.png) no-repeat top left;
+	z-index:7999;
+}
+
+#front {
+	padding: 7px;
+	width: 506px;
+	height: 137px;
+	text-align: center;
+	background-image: url(Default.png);
+}
+
+#myScrollbar {
+    position: absolute;
+    top: 67px;
+    bottom: 33px;
+    left: 499px;
+    top: 60px;
+	height: 89px;
+	display: none;
+}
+
+#myScrollArea {
+	position:absolute;
+	width: 495px;
+	height: 88px;
+	text-align: left;
+	top: 60px;
+}
+
+#tracking {
+	position:absolute;
+	width: 495px;
+	height: 500px;
+	text-align: left;
+	overflow: hidden;
+	top: 0px;
+	left: 0px;
+}
+
+#txtEncomenda {
+	width: 130px;
+}
